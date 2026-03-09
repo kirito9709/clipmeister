@@ -1,0 +1,1 @@
+{\n  "extends": "next/core-web-vitals",\n  "rules": {\n    // place to specify ESLint rules. Can be used to overwrite those provided by Next.js\n    // e.g. "quotes": ["error", "double"],\n  }\n}
