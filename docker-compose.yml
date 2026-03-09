@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    image: kirito9709/clipmeister
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/app
+    environment:
+      - ENV=development
+    command: ["./start.sh"]
+
